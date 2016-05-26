@@ -1,0 +1,61 @@
+body{
+
+}
+table{
+
+}
+.parsley-required{
+    display:none;
+}
+.parsley-error{
+    border-color: #FF3333;
+    background-color: #FFCCCC;
+}
+thead,tfoot{
+    font-weight: bolder;
+}
+thead tr,tfoot tr{
+    background: linear-gradient(#337ab7,#151A3E);
+    color:white;
+}
+.printonly{
+    display:none;
+}
+select{
+
+}
+.expense_list{
+    list-style: none;
+}
+.expense_list li{
+    float : left;
+    width: 120px;
+    height: 112px;
+    margin:15px;
+    background: #ebebeb;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #B7B5B5;
+    padding-top: 7px;
+}
+.expense_list li p.price{
+    background: #337ab7;
+    text-align: center;
+    border-radius: 3em;
+    color:white;
+    width: 60px;
+    font-size: 1.5em;
+    margin-left: 27px;
+    padding: 4px;
+    box-shadow: inset 2px 2px 5px #000000;
+}
+.expense_list li p.comment{
+    background: #18588E;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.expense_list li p.buttons{
+    
+    text-align: center;
+    margin-top: -5px;
+}
